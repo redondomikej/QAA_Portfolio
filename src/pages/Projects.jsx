@@ -14,12 +14,24 @@ const projects = [
     ],
     github: "https://github.com/redondomikej/Selenium-Behave-automation-framework-for-UI-testing/tree/Selenium_Behave_UI_testing",
   },
+  {
+    title: "🌐 React + Vite + Tailwind CSS Portfolio (Vercel Deployment)",
+    description:
+      "A modern portfolio website built with React, Vite, and Tailwind CSS. It features smooth animations with Framer Motion, React Router for navigation, and is deployed seamlessly on Vercel.",
+    features: [
+      "React + Vite – Fast and optimized development",
+      "Tailwind CSS – Efficient styling with utility-first approach",
+      "Framer Motion – Smooth animations and transitions",
+      "React Router – Client-side routing for better UX",
+      "Vercel Deployment – Easy CI/CD and hosting",
+    ],
+    github: "https://github.com/redondomikej/QAA_Portfolio/tree/React-%2B-Vite-%2B-Tailwind-CSS-Portfolio-vercel-deployment",
+  },
 ];
 
 const Projects = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6 flex flex-col items-center pt-20">
-        {/* <h1 className="text-4xl font-bold mb-6">Projects</h1> */}
       <div className="w-full max-w-4xl">
         {projects.map((project, index) => (
           <div key={index} className="mb-8 p-6 bg-gray-800 rounded-lg shadow-md">
