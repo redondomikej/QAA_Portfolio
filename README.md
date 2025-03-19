@@ -1,4 +1,3 @@
-
 # React + Vite + Tailwind CSS Portfolio with Vercel Deployment
 
 This project is a modern portfolio website built using **React** with  **Vite** , styled with  **Tailwind CSS** , and enhanced with **Framer Motion** for animations. It also features client-side routing with **React Router** and uses **React Icons** for UI elements. Finally, the project is deployed seamlessly using  **Vercel** .
@@ -174,3 +173,20 @@ Once the deployment is complete, Vercel will provide a live URL where your portf
 ## Conclusion
 
 This guide walks you through setting up a **React + Vite + Tailwind CSS** portfolio and deploying it with  **Vercel** . Feel free to customize the project further to suit your needs. Happy coding! 🚀
+
+---
+
+
+## Author
+
+**Mike EJ Redondo**
+
+Software QA Engineer | Automation Tester | Web Developer
+
+📧 Email: [[redondomikej@gmail.com]()]
+
+📞 Contact: 09169045914
+
+🔗 GitHub: [https://github.com/redondomikej](https://github.com/redondomikej)
+
+🌐 Portfolio: [https://qaa-portfolio-m45b0wwtq-mike-ejs-projects.vercel.app](https://qaa-portfolio-m45b0wwtq-mike-ejs-projects.vercel.app/)
