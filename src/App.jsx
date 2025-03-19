@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import MyRole from "./pages/MyRole";
 import Tools from "./pages/Tools";
+import MyRole from "./pages/MyRole";
 import Contacts from "./pages/Contacts";
 
 function AnimatedRoutes() {
@@ -17,7 +17,7 @@ function AnimatedRoutes() {
   const navigate = useNavigate();
   const [direction, setDirection] = useState(1); // 1 = left, -1 = right
 
-  const pages = ["/", "/about", "/projects", "/my-role", "/tools", "/contacts"];
+  const pages = ["/", "/about", "/projects", "/tools", "/my-role", "/contacts"];
   const currentIndex = pages.indexOf(location.pathname);
 
   const swipeHandlers = useSwipeable({
@@ -51,8 +51,8 @@ function AnimatedRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+           <Route path="/tools" element={<Tools />} />
           <Route path="/my-role" element={<MyRole />} />
-          <Route path="/tools" element={<Tools />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </motion.div>
